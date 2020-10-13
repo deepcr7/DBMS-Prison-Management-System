@@ -73,7 +73,7 @@ button:hover {
   font-weight: 1000;
 }
 .container {
-  padding: 50px;
+  padding: 30px;
   margin-left: 30.5%;
 }
 body {
@@ -109,7 +109,9 @@ h1 {
   text-decoration: none;
   color: white;
 }
-
+.container {
+  padding-bottom: 0px;
+}
 /*
 @media (min-width: 760px) {
   body {
