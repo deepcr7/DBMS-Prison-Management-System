@@ -1,0 +1,139 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #4caf50;
+}
+.active {
+  background-color: #4caf50;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  width: 50%;
+  border-radius: 8px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 5.5%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  margin-left: 32.5%;
+  border: none;
+  cursor: pointer;
+  width: 35%;
+  border-radius: 8px;
+  font-weight: 1000;
+}
+button:hover {
+  opacity: 0.8;
+}
+.logoutbtn {
+  width: auto;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  margin-left: 32.5%;
+  background-color: #f44336;
+  width: 35%;
+  border-radius: 8px;
+  font-weight: 1000;
+}
+.container {
+  padding: 50px;
+  margin-left: 30.5%;
+}
+body {
+  background: url("../img/wp3007853.jpg");
+}
+
+.test {
+  color: white;
+  font-weight: 900;
+}
+.signupbtn {
+  background-color: orange;
+  font-weight: 1000;
+}
+h1 {
+  color: white;
+}
+.btn-group {
+  margin-top: 70px;
+  display: center;
+}
+.operation {
+  justify-content: center;
+  margin-left: 32.5%;
+}
+/*
+.content h1 {
+  justify-content: center;
+  margin-left: 32.5%;
+}
+*/
+.button {
+  text-decoration: none;
+  color: white;
+}
+
+/*
+@media (min-width: 760px) {
+  body {
+    background-color: orange;
+    color: violet;
+  }
+  p {
+    color: violet;
+  }
+  .container {
+    padding: 5px;
+    width: 100%;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+*/
